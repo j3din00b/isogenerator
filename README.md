@@ -1,5 +1,5 @@
-# UBlueOS ISO Generator
-This action is used to generate the ISO images for UBlueOS.
+# Universal Blue ISO Generator
+This action is used to generate the ISO images for any Fedora Atomic based OCI images (bootc based images not currently supported). This project relies on the command feature in Anaconda `ostreecontainer`.
 
 ## Makefile
 A Makefile is provided for ease of use. There are separate targets for each file generated, however `make` can be used to generate the final image and `make clean` can be used to clean up the workspace.
@@ -111,3 +111,6 @@ Build a new image
 	"privileged": true
 }
 ```
+
+# Special Thanks
+This code was originally forked from https://github.com/JasonN3/build-container-installer and adapted for the needs of Universal Blue.
