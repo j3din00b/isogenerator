@@ -1,3 +1,7 @@
+# Archived
+
+This project is no longer maintained. Please use [upstream project](https://github.com/JasonN3/build-container-installer) moving forward.
+
 # Universal Blue ISO Generator
 This action is used to generate the ISO images for any Fedora Atomic based OCI images (bootc based images not currently supported). This project relies on the command feature in Anaconda `ostreecontainer`.
 
